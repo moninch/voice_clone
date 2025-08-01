@@ -1,0 +1,12 @@
+# F5TTS_v1_Base | E2TTS_Base
+model = "F5TTS_v1_Base"
+ckpt_file = "ckpts/F5TTS_v1_Base/F5TTS_v1_Base/model_240000_inference.safetensors"
+ref_audio = "infer/examples/basic/roma0.wav"
+# If an empty "", transcribes the reference audio automatically.
+ref_text = "Мяу , Мяу , Мяу , Мяу , Мяу , привет , я Рома, пью пульсап , записываю голосовое для Дани на 12 секунд желательно "
+gen_text = "Это Я Найн Майс , мне не хватает тысячи рублей "
+# File with text to generate. Ignores the text above.
+gen_file = ""
+remove_silence = false
+output_dir = "tests"
+output_file = "infer_cli_basic.wav"
